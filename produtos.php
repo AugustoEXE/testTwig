@@ -18,7 +18,7 @@ $produtos = [
         'preco' => 999,
     ],
     [
-        'nome' => 'avião',  
+        'nome' => 'barco',  
         'preco' => 100000000,
     ],
 ];
