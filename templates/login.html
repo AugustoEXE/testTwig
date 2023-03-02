@@ -1,0 +1,18 @@
+{% include "inc/header.html" %}
+<br>
+{% if erro %}
+<div>aconteceu um erro :-O </div>
+{% endif %}
+
+
+<br>
+<form action="loginVerifica.php" method="POST">
+  <label for="">Login:</label>
+  <input type="text" name="login">
+  <br>
+  <label for="">senha:</label>
+  <input type="password" name="pass"/>
+  <button>Login</button>
+</form>
+
+{% include "inc/footer.html" %}
