@@ -1,9 +1,10 @@
 {% include "inc/header.html" %}
 <br>
-{% if erro %}
+{% if erro == 1 %}
 <div>aconteceu um erro :-O </div>
+{% elseif erro == 2 %}
+<div>Voce esta tentando acessar uma pagina restrita sem se logar, que coisa feia :0</div>
 {% endif %}
-
 
 <br>
 <form action="loginVerifica.php" method="POST">

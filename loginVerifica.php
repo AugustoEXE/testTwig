@@ -4,11 +4,12 @@ $pass = $_POST['pass'];
 
 
 if($user == 'augusto' && $pass == 'senha'){
-    echo 'entrou mto foda';
+    session_start();
+    $_SESSION['user'] = 'Augusto';
     header('location:boasVindas.php');
     die;
 }else{
-    echo'sefudeukkkkkk';
+    echo'foi de base';
     header('location:login.php?erro=1');
     die;
 }
