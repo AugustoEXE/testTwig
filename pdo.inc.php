@@ -1,0 +1,2 @@
+<?php
+$conex = new PDO();
