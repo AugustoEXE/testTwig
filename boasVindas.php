@@ -1,5 +1,5 @@
 <?php 
-require('loadTwig.php');
+require('inc/loadTwig.php');
 require('verificaLogin.php');
 $user = $_SESSION['user'] ?? false;
 

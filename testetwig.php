@@ -1,5 +1,5 @@
 <?php
-require('loadTwig.php');
+require('inc/loadTwig.php');
 
 $template = $twig->load('teste.html');
 echo $template->render([
