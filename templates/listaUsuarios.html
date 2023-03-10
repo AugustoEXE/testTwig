@@ -1,0 +1,25 @@
+{% include "inc/header.html" %}
+
+<h1>Os usuarios do sistema são:</h1>
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Usuario</th>
+        <th>Senha</th>
+        <th>ADM</th>
+    </tr>
+    <tr>
+    {% for usuario in usuarios %}
+        
+            <td>{{usuario.nome}}</tr>
+            <td>{{usuario.email}}</td>
+
+
+ 
+    {% endfor %}
+           </tr>
+</table>
+
+
+{% include "inc/footer.html" %}
